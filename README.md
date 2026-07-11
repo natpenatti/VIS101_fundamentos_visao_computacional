@@ -4,11 +4,15 @@
 ![OpenCV](https://img.shields.io/badge/OpenCV-4.x-green.svg)
 ![NumPy](https://img.shields.io/badge/NumPy-1.x-lightblue.svg)
 ![Matplotlib](https://img.shields.io/badge/Matplotlib-3.x-orange.svg)
+![Ultralytics](https://img.shields.io/badge/Ultralytics-YOLOv11-black.svg)
+![Supervision](https://img.shields.io/badge/Supervision-Roboflow-purple.svg)
 ![Status](https://img.shields.io/badge/Status-Em%20Andamento-yellow)
 
 Repositório dedicado aos códigos, exercícios e anotações da disciplina de **Fundamentos da Visão Computacional** da Pós em Visão Computacional e Deep Learning no STAR Research Institute. O foco principal é compreender a cadeia de formação da imagem digital e aplicar operações de leitura, inspeção e manipulação utilizando OpenCV, estabelecendo a base para o aprendizado de máquina aplicado à visão moderna.
 
 ## 📖 Sobre a Disciplina
+
+**Instrutor:** Carlos Melo, MSc.
 
 **Ementa:**
 Natureza e desafios da visão computacional. Um sistema de visão simples: pipeline completo de análise em um mundo visual simplificado. Percepção visual e leitura de imagens: intensidade, contraste e histograma. Formação da imagem: luz e espectro eletromagnético, energia do fóton, modelo pinhole, lentes e câmera como sistema linear. Sensores de imagem, amostragem e quantização. Cor: espaços de cor e mosaico de Bayer. O paradigma de aprendizado na visão computacional moderna. Introdução ao OpenCV.
@@ -29,15 +33,26 @@ Desenvolver competências para compreender a formação da imagem digital — da
 
 ## 📂 Estrutura do Repositório
 
-O projeto está estruturado em torno dos principais Jupyter Notebooks desenvolvidos ao longo do curso. Cada notebook representa uma etapa fundamental do pipeline de desenvolvimento:
+O projeto está estruturado em diretórios para separar scripts, dados brutos e modelos de Inteligência Artificial:
 
+* `images/`
+  * `apple.jpg`
+  * `brasil-moedas.jpg`
+  * `cat.jpeg`
+  * `dog.png`
+  * `rua.webp`
+* `models/`
+  * `yolo11n.pt`
+  * `yolo26n.pt`
 * `notebooks/`
   * `VIS101_aula2_segmentacao_maca.ipynb`
   * `VIS101_aula2_transformacoes_geometricas.ipynb`
   * `VIS101_aula3_intensidade_e_histograma.ipynb`
-* `images/`
-  * `apple.jpg`
-  * `cat.jpeg`
+  * `VIS101_aula4_do_histograma_ao_threshold.ipynb`
+  * `VIS101_aula4_anotacoes_em_imagens.ipynb`
+  * `VIS101_aula4_anotacoes_com_supervision.ipynb`
+* `videos/`
+  * `people-walking.mp4`
 
 ## 🚀 Como Executar
 
