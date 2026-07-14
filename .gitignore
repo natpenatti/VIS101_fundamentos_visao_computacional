@@ -1,0 +1,4 @@
+# Ignorar todos os vídeos gerados nas pastas
+output/
+videos/
+models/
