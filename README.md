@@ -42,7 +42,6 @@ O projeto está estruturado em diretórios para separar scripts, dados brutos e 
   * `dog.png`
   * `rua.webp`
 * `models/`
-  * `yolo11n.pt`
   * `yolo26n.pt`
 * `notebooks/`
   * `VIS101_aula2_segmentacao_maca.ipynb`
@@ -51,7 +50,13 @@ O projeto está estruturado em diretórios para separar scripts, dados brutos e 
   * `VIS101_aula4_do_histograma_ao_threshold.ipynb`
   * `VIS101_aula4_anotacoes_em_imagens.ipynb`
   * `VIS101_aula4_anotacoes_com_supervision.ipynb`
+  * `VIS101_aula5_espacos_de_cor.ipynb`
+  * `VIS101_aula5_segmentacao_por_cor_hsv.ipynb`
+  * `VIS101_aula5_chroma_key_video.ipynb`
 * `videos/`
+  * `chuva-bolas-3cores.mp4`
+  * `fundo-deserto.mp4`
+  * `greenscreen.mp4`
   * `people-walking.mp4`
 
 ## 🚀 Como Executar
